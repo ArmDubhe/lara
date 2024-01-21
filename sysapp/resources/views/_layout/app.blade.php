@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,6 +14,11 @@
     <header>
         @include('_layout._partial.menu')
     </header>
-    @yield('content')
+    <section>
+        @yield('content')
+    </section>
+    <footer>
+        <small>Company © W3docs. All rights reserved.</small>
+    </footer>
 </body>
 </html>
