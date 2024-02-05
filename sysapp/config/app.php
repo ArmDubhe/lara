@@ -185,4 +185,6 @@ return [
         // 'Example' => App\Facades\Example::class,
     ])->toArray(),
 
+    'bootstrap_css' => '/bootstrap-5.3.2-dist/css/bootstrap.min.css',
+    'bootstrap_js' => '/bootstrap-5.3.2-dist/js/bootstrap.min.js'
 ];
