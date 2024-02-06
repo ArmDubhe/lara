@@ -42,6 +42,7 @@ html, body {
 
 .menu > li a{
   text-decoration: none;
+  color: #dcdcdc;
 }
 .menu > li a:visited { text-decoration: none; }
 
